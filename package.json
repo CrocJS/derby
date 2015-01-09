@@ -1,7 +1,7 @@
 {
   "name": "derby",
   "description": "MVC framework making it easy to write realtime, collaborative applications that run in both Node.js and browsers.",
-  "version": "0.6.0-alpha31a",
+  "version": "0.6.0-alpha31b",
   "homepage": "http://derbyjs.com/",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "derby-parsing": "^0.3.2",
-    "derby-templates": "^0.2.3",
+    "derby-templates": "git+https://github.com/mrThomasTeller/derby-templates.git",
     "html-util": "~0.2.1",
     "tracks": "^0.5.0",
     "racer": "0.6.0-alpha24",
