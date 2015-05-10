@@ -1,7 +1,7 @@
 {
   "name": "derby",
   "description": "MVC framework making it easy to write realtime, collaborative applications that run in both Node.js and browsers.",
-  "version": "0.6.0-alpha45a",
+  "version": "0.6.0-alpha51",
   "homepage": "http://derbyjs.com/",
   "repository": {
     "type": "git",
@@ -12,13 +12,13 @@
     "test": "./node_modules/.bin/mocha test/all/*.mocha.js; ./node_modules/.bin/jshint lib/*.js test/*.js"
   },
   "dependencies": {
-    "derby-parsing": "^0.3.2",
+    "derby-parsing": "^0.4.1",
     "derby-templates": "git+https://github.com/CrocJS/derby-templates.git",
-    "html-util": "~0.2.1",
+    "html-util": "^0.2.1",
     "tracks": "^0.5.0",
-    "racer": "0.6.0-alpha32",
+    "racer": "0.6.0-alpha36",
     "chokidar": "^0.12.6",
-    "through": "~2.3.4",
+    "through": "^2.3.4",
     "resolve": "^0.6.3"
   },
   "devDependencies": {
