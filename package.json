@@ -12,7 +12,7 @@
     "test": "./node_modules/.bin/mocha test/all/*.mocha.js; ./node_modules/.bin/jshint lib/*.js test/*.js"
   },
   "dependencies": {
-    "derby-parsing": "^0.4.1",
+    "derby-parsing": "git+https://github.com/CrocJS/derby-parsing.git",
     "derby-templates": "git+https://github.com/CrocJS/derby-templates.git",
     "html-util": "^0.2.1",
     "tracks": "^0.5.0",
